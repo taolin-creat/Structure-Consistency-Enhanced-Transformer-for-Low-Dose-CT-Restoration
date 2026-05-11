@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pytorch_ssim/__init__.py
+pytorch_ssim.egg-info/PKG-INFO
+pytorch_ssim.egg-info/SOURCES.txt
+pytorch_ssim.egg-info/dependency_links.txt
+pytorch_ssim.egg-info/top_level.txt

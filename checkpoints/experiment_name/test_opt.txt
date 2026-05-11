@@ -1,0 +1,36 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: D:\project\LIT-Former - tl\piglet-dose-0.05
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                 input_nc: 1                             
+                  isTrain: False                         	[default: None]
+                  is_test: False                         
+                 is_train: False                         
+                   is_val: False                         
+              layer_order: gcr                           
+                load_size: 256                           
+         max_dataset_size: inf                           
+           mirror_padding: None                          
+                    model: test                          
+               model_path: checkpoints/experiment_name/best_val_psnr2d_model.pth
+                     name: experiment_name               
+               no_dropout: False                         
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 0                             
+              num_threads: 4                             
+                output_nc: 1                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+                      rep: False                         
+              results_dir: ./test_results/               
+                   suffix:                               
+          test_batch_size: 1                             
+         train_batch_size: 1                             
+                use_wandb: False                         
+----------------- End -------------------

@@ -1,0 +1,49 @@
+----------------- Options ---------------
+                    beta1: 0.5                           
+                    betas: (0.9, 0.99)                   
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                crop_size: 256                           
+                 dataroot: D:\project\LIT-Former - tl\piglet-dose-0.05
+             display_freq: 400                           
+               display_id: 1                             
+           display_server: http://localhost              
+          display_winsize: 256                           
+                    epoch: latest                        
+              epoch_count: 0                             
+                   epochs: 100                           
+                  gpu_ids: 0                             
+                 input_nc: 1                             
+                  isTrain: True                          	[default: None]
+                  is_test: False                         
+                 is_train: False                         
+                   is_val: False                         
+              layer_order: gcr                           
+            learning_rate: 0.0002                        
+                load_size: 286                           
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+           mirror_padding: None                          
+                    model: cycle_gan                     
+           n_epochs_decay: 1                             
+                     name: experiment_name               
+               no_dropout: False                         
+                  no_flip: False                         
+                  no_html: False                         
+                     norm: instance                      
+              num_threads: 4                             
+                output_nc: 1                             
+                    phase: train                         
+               preprocess: resize_and_crop               
+               print_freq: 50                            
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 5000                          
+                   suffix:                               
+          test_batch_size: 1                             
+         train_batch_size: 1                             
+                use_wandb: False                         
+            warmup_epochs: 2                             
+             weight_decay: 0.01                          
+----------------- End -------------------
